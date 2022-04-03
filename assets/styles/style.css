@@ -53,19 +53,19 @@
   font-size: 3.5vmin;
   font-family: var(--pacifico);
 }
-
+.section-1 {
+  background: url("../media/images/Background-4959.jpeg");
+  background-size: cover;
+}
+.section-1 .p {
+  color: #e5e5e5;
+}
 .heading {
   margin-bottom: 45vmin;
 }
 
-#myVideo {
-  position: absolute;
-  top: 0%;
-  left: 0%;
-  width: 100%;
-  z-index: -999;
-}
-/*/              Homepage Design             /*/
+
+/*/              Homepage Design             /
 
 /*                     Section 2                          */
 
@@ -332,16 +332,6 @@
 }
 
 @media only screen and (max-width: 768px) {
-  video {
-    display: none;
-  }
-  .section-1 {
-    background: url("../media/images/Background-4959.jpeg");
-    background-size: cover;
-  }
-  .section-1 .p {
-    color: #e5e5e5;
-  }
   .section-2 {
     margin-top: 5vmin;
   }
