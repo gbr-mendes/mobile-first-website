@@ -1,1 +1,1 @@
-# mobile-first-webseit
+# mobile-first-website
